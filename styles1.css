@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  }
+  header{
+    margin:0;
+    padding:0;
+  }
+  /**********************/
+/*     Navigation     */
+/**********************/
+.navbar {
+	background-color: #161223;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+}
+.navbar .nav-item .nav-link {
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+	color:#fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.navbar .nav-item.dropdown.show .nav-link,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+	color: red;
+}
+.navbar {
+    padding-top: 1.75rem;
+    box-shadow: none;
+    transition: all 0.2s;
+}
+.navbar .nav-item .nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+  
+
+  .team-member img {
+    margin: auto;
+}
+  .team-member img {
+    margin: auto;
+  }
+ .img-small {
+          height: 88px;
+          width: 88px;
+      }
+      .img-circle {
+          border-radius: 50%;
+      }
+      .team-member {
+        text-align: center;
+    }
+      span.navy
+      {
+          color:red;
+      }
+      .img-circle {
+          border-radius: 50%;
+      }
+      .navy-line {
+          width: 60px;
+          height: 1px;
+          margin: 90px auto 0;
+          border-bottom: 2px solid red;
+      }
+      .social-icon {
+        height: 70px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 27px;
+        margin-right: 11px;
+        cursor: pointer;
+    }
+    .social-twitter {
+        background-color: #55acee
+    }
+    
+    .social-facebook {
+        background-color: #3b5999
+    }
+    
+    .social-youtube {
+        background-color: red
+    }
+    .social-instagram {
+      background-color: #833AB4
+  }
+    .social-icon i {
+        transition: 0.4s all
+    }
+    
+    .social-icon:hover i {
+        transform: scale(1.4)
+    }
+    .social-items {
+        list-style: none;
+        display: flex
+    }
+   
+/*******************/
+/*     Details     */
+/*******************/
+.img-background{
+    margin-top: 20%;
+}
+.text-container {
+    width: 400px;
+    margin-left: 3rem;
+   margin-top: 20%;
+}
+/* end of details */
